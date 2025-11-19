@@ -1,5 +1,7 @@
 site_name: My Docs
 theme: readthedocs
+site_url: https://github.com/aLieexe/pages-mkdocs-test
+
 # nav:
 # - Contribution: contributing.md
 exclude_docs: |
