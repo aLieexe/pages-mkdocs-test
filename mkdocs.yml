@@ -1,0 +1,12 @@
+site_name: My Docs
+theme: readthedocs
+# nav:
+# - Contribution: contributing.md
+exclude_docs: |
+  api-config.json    # A file with this name anywhere.
+  /requirements.txt  # Top-level "docs/requirements.txt".
+  *.py               # Any file with this extension anywhere.
+  !/foo/example.py   # But keep this particular file.
+
+repo_url: https://github.com/aLieexe/pages-mkdocs-test
+edit_uri: edit/main/docs/docs
