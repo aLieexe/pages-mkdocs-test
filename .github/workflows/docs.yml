@@ -19,4 +19,4 @@ jobs:
 
       - name: Build site
         working-directory: docs
-        run: mkdocs build --strict
+        run: mkdocs gh-deploy --strict
